@@ -1,0 +1,91 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    text-align: center;
+  }
+  
+  /* Form Section */
+  .form-container {
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"],
+  input[type="datetime-local"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
+  /* Sections */
+  h2 {
+    margin-top: 40px;
+  }
+  
+  .task-section {
+    margin-bottom: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  li {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .late-label {
+    color: red;
+    font-size: 12px;
+    margin-left: 15px;
+  }
+
+  .delete-btn {
+    margin-left: 15px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: darkred;
+  }
+
+  #activeListContainer {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+  }  
+  
+  /* Completed Tasks Container */
+  #completedListContainer {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Small adjustments for better spacing */
+  input[type="checkbox"] {
+    margin-left: 15px;
+  }
+  

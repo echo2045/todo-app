@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Todo List App</h1>
+
+  <!-- Form for adding a task -->
+  <div class="form-container">
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <input type="datetime-local" id="deadlineInput">
+    <button id="addTodoBtn">Add Todo</button>
+  </div>
+
+  <!-- Active Tasks Section -->
+  <section class="task-section">
+    <h2>Active Tasks</h2>
+    <div id="activeListContainer">
+      <ul id="todoList"></ul>
+    </div>
+  </section>
+  
+
+  <!-- Completed Tasks Section -->
+  <section class="task-section">
+    <h2>Completed Tasks</h2>
+    <div id="completedListContainer">
+      <ul id="completedList"></ul>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
